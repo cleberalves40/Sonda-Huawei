@@ -3,6 +3,7 @@
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Huawei%20VRP-red.svg)](https://e.huawei.com/)
 [![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-yellow.svg)](LICENSE)
+[![Release](https://img.shields.io/badge/Release-v0.1.0-green.svg)](https://github.com/cleberalves40/Sonda-Huawei/releases)
 
 Sonda de testes de latência e perda de pacotes para dispositivos de borda **Huawei** (VRPv5 / VRPv8, NE40E, NetEngine, CloudEngine, AR routers), permitindo originar testes a partir de **até 5 endereços IP diferentes**.
 
@@ -34,20 +35,25 @@ Ao forçar o IP de origem em cada teste (`ping -a <source_ip>`), o roteador comu
 
 ---
 
-## 🛠️ Como Usar a Sonda Python
+## 🛠️ Instalação e Execução
 
-### 1. Instalação das dependências
+### 1. Instalação como Pacote Python
 
 ```bash
+# Criar ambiente virtual (recomendado)
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+
+# Instalar o pacote localmente
+pip install .
 ```
 
-### 2. Execução dos Testes
+### 2. Execução via CLI (`sonda-huawei`)
+
+Com o pacote instalado, utilize diretamente o utilitário de linha de comando:
 
 ```bash
-python3 sonda_huawei.py \
+sonda-huawei \
   --host 192.168.1.1 \
   -u admin \
   -p MinhaSenha123 \
@@ -55,6 +61,8 @@ python3 sonda_huawei.py \
   --sources 200.1.1.1 200.2.2.2 200.3.3.3 \
   --count 5
 ```
+
+> **Nota de Compatibilidade:** Você também pode executar diretamente via módulo (`python3 -m sonda_huawei`) ou pelo script de compatibilidade (`python3 sonda_huawei.py`).
 
 ### Exemplo de Saída Formatada:
 
@@ -71,7 +79,7 @@ python3 sonda_huawei.py \
 Para integrar a scripts ou dashboards, passe a flag `--json`:
 
 ```bash
-python3 sonda_huawei.py --host 192.168.1.1 -u admin -p MinhaSenha123 --target 8.8.8.8 --sources 200.1.1.1 200.2.2.2 --json
+sonda-huawei --host 192.168.1.1 -u admin -p MinhaSenha123 --target 8.8.8.8 --sources 200.1.1.1 200.2.2.2 --json
 ```
 
 ---
