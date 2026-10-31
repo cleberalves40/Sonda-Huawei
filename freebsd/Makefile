@@ -1,6 +1,6 @@
 PORTNAME=	sonda-huawei
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.1.0
+DISTVERSION=	0.1.1
 CATEGORIES=	net-mgmt python
 
 MAINTAINER=	cleber@bsd.com.br
