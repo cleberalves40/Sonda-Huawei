@@ -36,3 +36,4 @@ jobs:
         run: |
           sonda-huawei --version
           sonda-huawei --help
+

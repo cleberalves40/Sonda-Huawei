@@ -1,0 +1,10 @@
+Sonda-Huawei is a CLI latency and packet-loss probe utility tailored
+for Huawei VRP edge devices (VRPv5 / VRPv8, NE40E, NetEngine,
+CloudEngine, AR routers).
+
+It originates ICMP ping tests from up to 5 different source IP addresses
+simultaneously, allowing real-time comparison of latency, jitter and
+packet loss across multiple upstream providers, BGP transits, and IX/PTT
+links in multihoming border router scenarios.
+
+WWW: https://github.com/cleberalves40/Sonda-Huawei

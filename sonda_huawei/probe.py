@@ -120,3 +120,4 @@ class HuaweiProbe:
                 time.sleep(1)
 
         return results
+

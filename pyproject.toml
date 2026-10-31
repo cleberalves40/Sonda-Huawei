@@ -46,3 +46,4 @@ include = ["sonda_huawei*"]
 
 [tool.setuptools.package-data]
 "*" = ["*.cfg"]
+
