@@ -35,20 +35,30 @@ Ao forçar o IP de origem em cada teste (`ping -a <source_ip>`), o roteador comu
 
 ---
 
-## 🛠️ Instalação e Execução
+## 🛠️ Instalação
 
-### 1. Instalação como Pacote Python
+### Opção A: macOS / Linux via Homebrew
 
 ```bash
-# Criar ambiente virtual (recomendado)
+brew install cleberalves40/tap/sonda-huawei
+```
+
+### Opção B: FreeBSD (Ports)
+
+```bash
+cd /usr/ports/net-mgmt/sonda-huawei   # ou usando a pasta freebsd/ deste repositório
+make install clean
+```
+
+### Opção C: Python Virtualenv / Pip
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
-# Instalar o pacote localmente
 pip install .
 ```
 
-### 2. Execução via CLI (`sonda-huawei`)
+## 🚀 Execução via CLI (`sonda-huawei`)
 
 Com o pacote instalado, utilize diretamente o utilitário de linha de comando:
 
