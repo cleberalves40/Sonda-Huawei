@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sonda-huawei"
-version = "0.1.0"
+version = "0.1.1"
 description = "Multi-source latency and packet loss probe for Huawei VRP edge routers"
 readme = "README.md"
 license = { text = "BSD-2-Clause" }

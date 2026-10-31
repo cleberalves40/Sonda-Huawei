@@ -62,7 +62,7 @@ class TestHuaweiProbeParsing(unittest.TestCase):
 class TestHuaweiCLI(unittest.TestCase):
 
     def test_version(self):
-        self.assertEqual(__version__, "0.1.0")
+        self.assertEqual(__version__, "0.1.1")
 
     def test_parser_valid_args(self):
         parser = build_parser()

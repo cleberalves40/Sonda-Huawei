@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Huawei%20VRP-red.svg)](https://e.huawei.com/)
 [![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-yellow.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/Release-v0.1.0-green.svg)](https://github.com/cleberalves40/Sonda-Huawei/releases)
+[![Release](https://img.shields.io/badge/Release-v0.1.1-green.svg)](https://github.com/cleberalves40/Sonda-Huawei/releases)
 
 Sonda de testes de latência e perda de pacotes para dispositivos de borda **Huawei** (VRPv5 / VRPv8, NE40E, NetEngine, CloudEngine, AR routers), permitindo originar testes a partir de **até 5 endereços IP diferentes**.
 

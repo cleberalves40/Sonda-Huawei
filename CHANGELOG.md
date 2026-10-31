@@ -6,6 +6,16 @@ O formato segue as diretrizes do [Keep a Changelog](https://keepachangelog.com/p
 
 ---
 
+## [0.1.1] - 2026-10-31
+
+### Adicionado
+- Novo atalho `-P` para especificação da porta TCP do SSH (`--port` / `-P`).
+- Tabela completa de referência de parâmetros da CLI e dicas de portas de gerência alternativas no `README.md`.
+- Testes unitários para validação do parâmetro `-P` de porta SSH.
+- Workflow automatizado de CI/CD para compilação e publicação de releases no GitHub (`release.yml`).
+- Script auxiliar de cálculo de checksums de releases (`ci/update-release-hashes.sh`).
+- Guia oficial de releases em `docs/RELEASING.md`.
+
 ## [0.1.0] - 2026-10-31
 
 ### Adicionado
