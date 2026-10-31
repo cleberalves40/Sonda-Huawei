@@ -70,6 +70,7 @@ class TestHuaweiCLI(unittest.TestCase):
             "--host", "192.168.1.1",
             "-u", "admin",
             "-p", "secret",
+            "-P", "2222",
             "-t", "8.8.8.8",
             "-s", "200.1.1.1", "200.2.2.2",
             "-c", "10",
@@ -79,6 +80,7 @@ class TestHuaweiCLI(unittest.TestCase):
         self.assertEqual(args.host, "192.168.1.1")
         self.assertEqual(args.username, "admin")
         self.assertEqual(args.password, "secret")
+        self.assertEqual(args.port, 2222)
         self.assertEqual(args.target, "8.8.8.8")
         self.assertEqual(args.sources, ["200.1.1.1", "200.2.2.2"])
         self.assertEqual(args.count, 10)

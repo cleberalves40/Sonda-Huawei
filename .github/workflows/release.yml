@@ -57,3 +57,4 @@ jobs:
           gh release create "$GITHUB_REF_NAME" dist/* \
             --title "Sonda-Huawei $GITHUB_REF_NAME" \
             --generate-notes
+

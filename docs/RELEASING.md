@@ -90,3 +90,4 @@ No repositório do tap ([cleberalves40/homebrew-tap](https://github.com/cleberal
    git push origin main
    ```
 O workflow do tap testará e auditará a instalação da nova versão.
+

@@ -51,7 +51,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--host", required=True, help="IP ou hostname do roteador Huawei")
     parser.add_argument("--username", "-u", required=True, help="Usuário de acesso SSH")
     parser.add_argument("--password", "-p", required=True, help="Senha de acesso SSH")
-    parser.add_argument("--port", type=int, default=22, help="Porta SSH (padrão: 22)")
+    parser.add_argument(
+        "--port", "-P", type=int, default=22, help="Porta TCP do SSH (padrão: 22)"
+    )
     parser.add_argument("--target", "-t", required=True, help="IP de destino do teste de latência")
     parser.add_argument(
         "--sources",

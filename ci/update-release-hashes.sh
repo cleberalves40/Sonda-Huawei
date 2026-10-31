@@ -33,3 +33,4 @@ echo "=== HOMEBREW (Formula/sonda-huawei.rb) ==="
 echo "  url \"${URL}\""
 echo "  sha256 \"${SHA256}\""
 echo ""
+

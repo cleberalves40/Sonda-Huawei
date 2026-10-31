@@ -20,3 +20,4 @@ O formato segue as diretrizes do [Keep a Changelog](https://keepachangelog.com/p
 - Estrutura oficial do **FreeBSD Port** em `freebsd/` (`Makefile`, `distinfo`, `pkg-descr`).
 - Fórmula para **Homebrew Tap** em `Formula/sonda-huawei.rb` no repositório `cleberalves40/homebrew-tap`.
 - Documentação atualizada de instalação para Homebrew, FreeBSD Ports e Python venv no `README.md`.
+
