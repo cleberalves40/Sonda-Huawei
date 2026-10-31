@@ -24,3 +24,4 @@ GH_PROJECT=	Sonda-Huawei
 NO_ARCH=	yes
 
 .include <bsd.port.mk>
+
