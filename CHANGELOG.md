@@ -1,5 +1,7 @@
 # Changelog
 
+[**Português**](CHANGELOG.md) | [English](CHANGELOG.en.md)
+
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 
 O formato segue as diretrizes do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).

@@ -1,5 +1,7 @@
 # Ciclo de Lançamentos e Manutenção de Releases
 
+[**Português**](RELEASING.md) | [English](RELEASING.en.md)
+
 Este documento detalha o procedimento para lançar novas versões do **Sonda-Huawei** e sincronizar os ecossistemas de distribuição (**FreeBSD Ports** e **Homebrew Tap**).
 
 ---
